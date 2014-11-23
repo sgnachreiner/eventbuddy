@@ -1,8 +1,7 @@
 {
-  "name": "myProject",
+  "name": "mySteroidsProject",
   "version": "0.0.1",
-  "authors": [
-  ],
+  "authors": [],
   "ignore": [
     "**/.*",
     "node_modules",
@@ -12,7 +11,10 @@
     "tests"
   ],
   "dependencies": {
-    "steroids-js": "3.x",
-    "ionic": "driftyco/ionic-bower#v1.0.0-beta.13"
+    "steroids-js": "3.5.x",
+    "angular": "1.2.21",
+    "angular-route": "1.2.21",
+    "underscore": "1.5.1",
+    "restangular": "1.4.0"
   }
 }
