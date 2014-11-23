@@ -1,8 +1,8 @@
 <div ng-app="movieApp">
   <div ng-controller="IndexCtrl">
       <ul class="list">
-        <li class="item" ng-click="open(movie.recipe_id)" ng-repeat="recipe in recipes">
-          {{ recipe.name }}
+        <li class="item" ng-click="open(movie.recipe_id)" ng-repeat="movie in movies">
+          {{ movie.name }}
         </li>
       </ul>
   </div>
