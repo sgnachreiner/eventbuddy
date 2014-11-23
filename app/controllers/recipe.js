@@ -17,7 +17,7 @@ recipeApp.controller('IndexCtrl', function ($scope, RecipeRestangular) {
   });
 
   // -- Native navigation
-  steroids.view.navigationBar.show("Recipes");
+  steroids.view.navigationBar.show("Moviesss");
 
 });
 
