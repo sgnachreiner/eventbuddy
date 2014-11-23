@@ -7,7 +7,7 @@ movieApp.controller('IndexCtrl', function ($scope, MovieRestangular) {
 
   // Helper function for opening new webviews
   $scope.open = function() {
-    webView = new steroids.views.WebView("/views/recipe/index.html");
+    webView = new steroids.views.WebView("/views/question/index.html");
     steroids.layers.push(webView);
   };
 
