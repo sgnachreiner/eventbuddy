@@ -12,8 +12,8 @@
   ],
   "dependencies": {
     "steroids-js": "3.5.x",
-    "angular": "1.2.21",
-    "angular-route": "1.2.21",
+    "angular": "1.2.7",
+    "angular-route": "1.2.7",
     "underscore": "1.5.1",
     "restangular": "1.4.0"
   }
