@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/Shannon/eventbuddy/myProject', [ 'grunt-steroids' ] ]
+6 info preinstall mySteroidsProject@0.0.1
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt-steroids@0.x', null ]
+9 verbose cache add name=undefined spec="grunt-steroids@0.x" args=["grunt-steroids@0.x",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt-steroids@0.x',
+10 verbose parsed url   path: 'grunt-steroids@0.x',
+10 verbose parsed url   href: 'grunt-steroids@0.x' }
+11 verbose cache add name="grunt-steroids" spec="0.x" args=["grunt-steroids","0.x"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '0.x',
+12 verbose parsed url   path: '0.x',
+12 verbose parsed url   href: '0.x' }
+13 verbose addNamed [ 'grunt-steroids', '0.x' ]
+14 verbose addNamed [ null, '>=0.0.0-0 <1.0.0-0' ]
+15 silly lockFile 12fdd621-grunt-steroids-0-x grunt-steroids@0.x
+16 verbose lock grunt-steroids@0.x /Users/Shannon/.npm/12fdd621-grunt-steroids-0-x.lock
+17 silly lockFile 12fdd621-grunt-steroids-0-x grunt-steroids@0.x
+18 error Error: Attempt to unlock grunt-steroids@0.x, which hasn't been locked
+18 error     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:44:11)
+18 error     at cb (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:32:5)
+18 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:41:20
+18 error     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:30:7
+18 error     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+18 error     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+18 error     at Object.oncomplete (fs.js:107:15)
+19 error If you need help, you may report this *entire* log,
+19 error including the npm and node versions, at:
+19 error     <http://github.com/npm/npm/issues>
+20 error System Darwin 14.0.0
+21 error command "node" "/usr/local/bin/npm" "install"
+22 error cwd /Users/Shannon/eventbuddy/myProject
+23 error node -v v0.10.32
+24 error npm -v 1.4.28
+25 verbose exit [ 1, true ]
