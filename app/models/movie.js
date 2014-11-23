@@ -14,10 +14,10 @@ module.factory('MovieRestangular', function(Restangular) {
 
   return Restangular.withConfig(function(RestangularConfigurer) {
 
-    RestangularConfigurer.setBaseUrl('/data');
+    RestangularConfigurer.setBaseUrl('http://localhost/data');
     RestangularConfigurer.setRequestSuffix('.json');
     RestangularConfigurer.setRestangularFields({
-      id: "recipe_id"
+      id: "movie_id"
     });
 
   });
