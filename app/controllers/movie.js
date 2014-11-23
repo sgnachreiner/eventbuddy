@@ -12,7 +12,7 @@ movieApp.controller('IndexCtrl', function ($scope, MovieRestangular) {
   };
 
   // Fetch all objects from the local JSON (see app/models/recipe.js)
-  RecipeRestangular.all('movie').getList().then(function(movies){
+MovieRestangular.all('movie').getList().then(function(movies){
     $scope.movies = movies;
   });
 
