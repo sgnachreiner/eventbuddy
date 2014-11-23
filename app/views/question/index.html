@@ -1,0 +1,21 @@
+<div ng-app="questionApp">
+	<div ng-controller="IndexCtrl">
+      <h1>{{question.question_desc}}</h1>
+  		<button class="button button-outline button-positive">
+  			Yes!
+		</button>
+		<button class="button button-outline button-positive" ng-click="open()">
+  			Not yet.
+		</button>
+        <li class="item" ng-click="open()" ng-repeat="movie in movies">
+          {{ movie.name }}
+        </li>
+  </div>
+  <h1>{{question.question_desc}}</h1>
+  	<button class="button button-outline button-positive">
+  		Yes!
+	</button>
+	<button class="button button-outline button-positive">
+  		Not yet.
+	</button>
+</div>
